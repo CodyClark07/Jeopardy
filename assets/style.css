@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.hidden{
+    display: none;
+}
+
+.card{
+background-color: rgba(137, 43, 226, 0.705);
+color: white;
+}
+
+.bg-title{
+    background-color: rgba(137, 43, 226, 0.705);
+    color: white;
+}
+
+.bg-jeopardy{
+    background-image: url(https://www.jeopardy.com/sites/default/files/styles/article_image_gallery/public/2018-09/2013%20-%20present.jpg?itok=qDLGiwyd);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
