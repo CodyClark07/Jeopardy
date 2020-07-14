@@ -3,7 +3,7 @@ import Value from "../Models/Value.js";
 
 
 const _api = axios.create({
-    baseURL: "http://jservice.io/api",
+    baseURL: "https://jservice.io/api",
     timeout: 3000
 
 })
