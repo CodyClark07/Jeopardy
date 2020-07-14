@@ -21,4 +21,7 @@ export default class ValuesController {
   getAnswer() {
     _valuesService.getAnswer()
   }
+  getNewQuestion() {
+    _valuesService.getNewQuestion()
+  }
 }

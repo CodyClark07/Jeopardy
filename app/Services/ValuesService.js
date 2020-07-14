@@ -19,6 +19,16 @@ class ValuesService {
     }
     getAnswer() {
         document.getElementById("answer").classList.remove("hidden")
+        document.getElementById("answer-sound").play()
+
+    }
+    getNewQuestion() {
+        document.getElementById("new-question-sound").play()
+        document.getElementById("shake").classList.add("shake")
+        function timeout() {
+            window.location.reload()
+        }
+        setTimeout(timeout, 3800)
     }
 
 
