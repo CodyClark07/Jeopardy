@@ -10,7 +10,7 @@ const _api = axios.create({
 class ValuesService {
     getQuestion() {
         _api.get("random").then(res => {
-            // console.log(res.data[0].question)
+            console.log(res.data[0])
             let rawData = res.data[0]
             let values = new Value(rawData)
 

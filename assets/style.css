@@ -40,7 +40,7 @@ color: white;
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
-.shake:hover {
+.shake {
     /* Start the shake animation and make the animation last for 0.5 seconds */
     -webkit-animation-name: shake;
     -webkit-animation-duration: 0.5s;
